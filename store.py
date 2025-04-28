@@ -42,12 +42,12 @@ class ShoppingCart:
 
 # Demo
 products = [
-    Product(1, "Laptop", 1000, 5),
-    Product(2, "Mouse", 25, 20),
-    Product(3, "Keyboard", 50, 15)
+    Product(1, "Laptop", 10000, 5),
+    Product(2, "Mouse", 2500, 20),
+    Product(3, "Keyboard", 5000, 15)
 ]
 
-customer = Customer(1, "John Doe")
+customer = Customer(1, "sam yale)
 cart = ShoppingCart(customer)
 
 cart.add_item(products[0], 1)
